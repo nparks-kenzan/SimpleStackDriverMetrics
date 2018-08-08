@@ -1,0 +1,13 @@
+server:
+    port: 9088
+
+
+spring: 
+    main:
+        banner-mode: "off"     
+
+logging: 
+    level: 
+        org: 
+            springframework: ERROR
+        com.kenzan.examples: DEBUG
